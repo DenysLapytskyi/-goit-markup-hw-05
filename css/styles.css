@@ -699,7 +699,7 @@ body {
 }
 
 .is-hidden {
-  opcaity: 0;
+  opcaity: 1;
   pointer-events: none;
   visibility: hidden;
 }
@@ -735,4 +735,10 @@ body {
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
+}
+
+.modal-close-icon {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% -50%);
 }
